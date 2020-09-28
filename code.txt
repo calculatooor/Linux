@@ -1,0 +1,27 @@
+    1  git remote
+    2  D:
+    3  ls
+    4  cd D:\workspace\Git\Linux
+    5  ls
+    6  git --help
+    7  git status
+    8  Linux
+    9  git remote
+   10  git status
+   11  git add readme.md 
+   12  git status
+   13  git commit -m "add readme file"
+   14  git config --global user.email 1525421829@qq.com
+   15  git config --global user.name calcualtooor
+   16  git status
+   17  git remote add origin https://github.com/calculatooor/Linux.git
+   18  git remote 
+   19  git push -u origin master
+   20  git init
+   21  git status
+   22  git add readme.md 
+   23  git commit -m "add readme file"
+   24  git branch -M master
+   25  git remote add origin https://github.com/calculatooor/Linux.git
+   26  git push -u origin master
+   27  history >code.txt

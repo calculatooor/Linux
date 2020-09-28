@@ -1,0 +1,115 @@
+    1  2020-09-06 21:36:34 root java
+    2  2020-09-06 21:36:45 root ps -aux|grep java
+    3  2020-09-06 21:41:08 root cd /springboot_web
+    4  2020-09-06 21:41:10 root ls -a
+    5  2020-09-06 21:41:20 root java -version
+    6  2020-09-06 21:42:07 root ps -aux|grep java
+    7  2020-09-06 21:43:02 root apt list --installed
+    8  2020-09-06 21:44:08 root java
+    9  2020-09-06 21:46:54 root apt-cache search java
+   10  2020-09-06 21:48:35 root java
+   11  2020-09-06 21:49:09 root apt install default-jre
+   12  2020-09-06 21:54:21 root java
+   13  2020-09-06 21:54:25 root java 0version
+   14  2020-09-06 21:54:30 root java -vserion
+   15  2020-09-06 21:54:44 root java -version
+   16  2020-09-06 21:54:53 root ls -a
+   17  2020-09-06 21:55:17 root java -jar blog-0.0.1-SNAPSHOT.jar 
+   18  2020-09-06 21:59:53 root cd /springboot_web
+   19  2020-09-06 21:59:57 root ll
+   20  2020-09-06 22:00:08 root java -jar blog-0.0.1-SNAPSHOT.jar 
+   21  2020-09-06 22:04:53 root cd /springboot_web/
+   22  2020-09-06 22:04:55 root ll
+   23  2020-09-06 22:05:23 root nohup java -jar blog-0.0.1-SNAPSHOT.jar >log.txt &
+   24  2020-09-06 22:05:32 root nohup java -jar blog-0.0.1-SNAPSHOT.jar
+   25  2020-09-06 22:06:27 root cd /springboot_web/
+   26  2020-09-06 22:06:55 root nohup java -jar blog-0.0.1-SNAPSHOT.jar >log.txt &
+   27  2020-09-06 22:07:17 root nohup java -jar blog-0.0.1-SNAPSHOT.jar >log.txt&
+   28  2020-09-06 22:07:33 root nohup java -jar blog-0.0.1-SNAPSHOT.jar >log.txt&2
+   29  2020-09-06 22:07:41 root nohup java -jar blog-0.0.1-SNAPSHOT.jar >log.txt
+   30  2020-09-06 22:08:19 root cd /springboot_web/
+   31  2020-09-06 22:08:56 root nohup java -jar >log.txt &
+   32  2020-09-06 22:09:52 root nohup java -jar blog-0.0.1-SNAPSHOT.jar >log.txt
+   33  2020-09-06 22:10:54 root nohup java -jar blog-0.0.1-SNAPSHOT.jar >log.txt 2>&1 &
+   34  2020-09-06 22:13:25 root ps -aux|less
+   35  2020-09-06 22:14:06 root ps -aux|grep java
+   36  2020-09-06 22:14:27 root lsof -i:8080
+   37  2020-09-06 22:20:02 root java -version
+   38  2020-09-06 22:20:10 root apt list installed
+   39  2020-09-06 22:20:43 root apt update
+   40  2020-09-06 22:24:43 root apt list installed
+   41  2020-09-06 22:24:56 root apt list --installed
+   42  2020-09-08 09:57:16 root vsftpd
+   43  2020-09-08 10:21:24 root java
+   44  2020-09-08 10:21:37 root java -version
+   45  2020-09-09 10:01:53 root yum update
+   46  2020-09-09 10:02:29 root apt update
+   47  2020-09-09 10:03:05 root apt list --upgradable
+   48  2020-09-09 10:10:52 root apt list ssl
+   49  2020-09-09 10:11:05 root apt list --ssl
+   50  2020-09-09 10:11:28 root rpm -qa|grep ssl
+   51  2020-09-09 10:11:42 root apt -qa|grep ssl
+   52  2020-09-09 10:11:54 root apt -q|grep ssl
+   53  2020-09-09 10:12:03 root apt list --installed
+   54  2020-09-12 19:13:13 root lsof -i:8080
+   55  2020-09-12 19:14:40 root kill -9 18720
+   56  2020-09-12 19:14:47 root LSOF -I:8080
+   57  2020-09-12 19:15:31 root ls -a
+   58  2020-09-12 19:15:39 root /web
+   59  2020-09-12 19:15:41 root /etc
+   60  2020-09-12 19:15:45 root cd /web
+   61  2020-09-12 19:15:49 root cd /etc
+   62  2020-09-12 19:15:53 root ls -a
+   63  2020-09-12 19:15:56 root ../
+   64  2020-09-12 19:15:59 root cd //
+   65  2020-09-12 19:16:02 root ls -a
+   66  2020-09-12 19:16:08 root cd ..
+   67  2020-09-12 19:16:11 root cd ../
+   68  2020-09-12 19:16:13 root ls -a
+   69  2020-09-12 19:16:29 root cd /springboot_web/
+   70  2020-09-12 19:16:31 root ls -a
+   71  2020-09-12 19:17:56 root nohup java -jar blog-0.0.1-SNAPSHOT.jar  >log.txt 2>&1 & --server.port=80
+   72  2020-09-12 19:18:39 root lsof -i:8080
+   73  2020-09-12 19:19:00 root kill 14015
+   74  2020-09-12 19:19:07 root lsof -i:8080
+   75  2020-09-12 19:19:58 root nohup java -jar blog-0.0.1-SNAPSHOT.jar --server.port=80
+   76  2020-09-12 19:20:39 root lsof -i:80
+   77  2020-09-12 19:27:05 root cd /springboot_web/
+   78  2020-09-12 19:27:29 root nohup java -jar blog-0.0.1-SNAPSHOT.jar >log.txt 2>&1 &
+   79  2020-09-12 19:27:44 root lsof -i:8080
+   80  2020-09-12 19:28:04 root nohup java -jar blog-0.0.1-SNAPSHOT.jar >log.txt
+   81  2020-09-12 19:28:21 root lsof -i:8080
+   82  2020-09-13 08:37:30 root mysql -u root -p
+   83  2020-09-23 21:32:06 root gcc --version
+   84  2020-09-23 21:32:27 root gdb --version
+   85  2020-09-23 21:32:35 root apt list --installed
+   86  2020-09-23 21:33:00 root apt search gdb
+   87  2020-09-23 21:35:08 root apt-get install gdb
+   88  2020-09-23 21:36:10 root ls
+   89  2020-09-23 21:36:13 root ls -a
+   90  2020-09-23 21:37:33 root cd /study/linux
+   91  2020-09-23 21:37:35 root ls -a
+   92  2020-09-23 21:37:50 root mkdir week1
+   93  2020-09-23 21:37:53 root ls -a
+   94  2020-09-23 21:37:57 root cd week1
+   95  2020-09-23 21:38:24 root vim HelloWorld.c
+   96  2020-09-23 21:39:48 root ls -a
+   97  2020-09-23 21:40:25 root gcc HelloWorld.c -o HelloWorld
+   98  2020-09-23 21:40:27 root ls -a
+   99  2020-09-23 21:40:34 root ./HelloWorld 
+  100  2020-09-23 21:40:58 root cd /study/linux/week1/
+  101  2020-09-23 21:40:59 root ls -a
+  102  2020-09-23 21:41:07 root gdb HelloWorld 
+  103  2020-09-28 14:04:39 root ls
+  104  2020-09-28 14:04:50 root cd /
+  105  2020-09-28 14:04:51 root ls
+  106  2020-09-28 14:05:21 root cd /study/linux/
+  107  2020-09-28 14:05:25 root mkdir week2
+  108  2020-09-28 14:05:32 root cd week2
+  109  2020-09-28 14:05:34 root ls
+  110  2020-09-28 14:05:56 root pgrep -l sleep
+  111  2020-09-28 14:06:20 root sleep 300|sleep 500&
+  112  2020-09-28 14:06:29 root pgrep -l sleep
+  113  2020-09-28 14:06:47 root ll /proc
+  114  2020-09-28 14:09:46 root ll /proc/31800/fd
+  115  2020-09-28 14:10:05 root history >code.txt
