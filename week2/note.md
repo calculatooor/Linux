@@ -356,7 +356,7 @@ int fprintf(FILE *stream,const char *format, ...);
 int sprintf(char *buf,const char *format, ...);
 ```
 
-
+​	这三个函数功能相同,都在格式字符串 format的控制下输出其他参数(这里表示为“…”)。不同的只是输出的流不同: `printf()`输出至标准输出流; `fprintf()`输出至参数 stream指定的流;`sprintf()`不是输出至一个文件,而是输出至参数`buf`所指的字符数组中,并且在`buf`的末尾自动添加一个空字节。它们调用成功均返回实际输出的字符个数。
 
 
 
